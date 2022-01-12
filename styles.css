@@ -1,0 +1,208 @@
+body
+{
+    background: violet;
+    color: #0f141e;
+    font-size:16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+a  
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: crimson;
+}
+
+.face
+{        
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info
+p{
+    color: rgb(0, 225, 255);
+    margin: 0;
+    font-style: italic;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 15px; <--Пропуск после каждой буквы*/
+    /* word-spacing: 30px; <--Пропуски между словами*/
+}
+
+.info{
+    display: flex;    
+    margin-bottom: 15px;
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+@media (max-width:700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.container
+{
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+
+.card
+{
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{ 
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.list{
+    padding: 0 30px;
+}
+
+.list li{
+    color: rgb(0, 225, 255);
+    margin-bottom: 5px;
+}
+
+.table{
+    color: rgb(0, 225, 255);
+    width: 100%;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contakt h2{
+    text-align: center;
+}
+
+.contakt{
+    font-weight: bold;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea    
+{
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15 0 10px;
+    outline: #000;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.row > .form-group:last-child{
+    margin-right: 0;
+}
+
+.btn{
+    background: black;
+    color: rgb(0, 225, 255);
+    font-family: inherit;
+    padding: 15 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+/* Позишион */
+.position{
+    position: relative;
+    /* border:4px solid black;
+    margin-top: 40px;
+    padding: 20px; */
+}
+
+.box{
+    position: fixed;        
+    top: 40px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    padding-right: 10px;
+    background: white;
+}
+
+.Gifka{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border: blue;
+    border-right: 100px;
+}
